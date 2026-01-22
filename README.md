@@ -12,7 +12,7 @@ application of PCA, K-means clustering and Random Forest classification.
 
 ## How this repository is structured
 
-- `code/` - this file contains two R scripts:
+- `code/` - contains two R scripts:
    - `IJC437_Download_And_Structure.R`
        This script contains the code to download and structure the API data. The API downloads are substantial
        and produce large raw data files. This code uses two functions to download the data which were produced
@@ -36,11 +36,10 @@ This file contains all of the figures used in the report, labelled with their co
 ```r
  setwd("~/Documents/Introduction to Data Science")
 ```
-4) Run the download and structure script:
+4) Run the download and structure script: >**Note** Downloads are large and can take sveral hours to complete
 ```r
  source("code/IJC437_Download_And_Structure.R")
 ```
-  a) NB- Large downloads
 5) Run the analysis script:
 ```r
  source("code/IJC437_Analyse.R")
