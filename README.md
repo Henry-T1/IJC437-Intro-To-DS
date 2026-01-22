@@ -29,8 +29,7 @@ and cleaned combined data.
 
 1) Download the project
 2) Open the project folder in RStudio
-3) Confirm working directory includes `code/`,`data/` and `figures/` files
-  a) If necessary, set working directory:
+3) Confirm working directory includes `code/`,`data/` and `figures/` files. If necessary, set working directory:
 ```r
  setwd("~/Documents/Introduction to Data Science")
 ```
